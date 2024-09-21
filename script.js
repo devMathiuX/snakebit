@@ -1,3 +1,5 @@
+//JS para mostrar los términos y condiciones
+
 var modal = document.getElementById("termsModal");
 
 var termsLink = document.querySelector(".terms-link");
@@ -17,5 +19,3 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-
-
